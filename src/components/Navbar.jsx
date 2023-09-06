@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { styles } from '../styles';
-import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import  {useState} from 'react';
+import {Link} from 'react-router-dom';
+import {styles} from '../styles';
+import {navLinks} from '../constants';
+import {close, logo, logotext, menu} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -31,7 +31,7 @@ const Navbar = () => {
           <img
             src={logotext}
             alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
+            className="sm:w-[200px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
           />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">

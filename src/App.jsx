@@ -8,6 +8,7 @@ import {
   Tech,
   Projects,
 } from './components';
+import {styles} from "./styles.js";
 
 const App = () => {
   return (
@@ -39,6 +40,16 @@ const App = () => {
         </div>
         <div className="relative z-0">
           <Contact />
+          <div
+              className="flex flex-row w-[100%] my-10 justify-center  px-12">
+            <p className={styles.sectionSubText}>
+              Contact Number: &nbsp;
+            </p>
+            <div className='cursor-pointer' onClick={()=>
+                window.open("tel:900300400")}>
+              <p className={styles.sectionSubText}>00989127766194 </p>
+            </div>
+          </div>
         </div>
       </div>
     </BrowserRouter>
