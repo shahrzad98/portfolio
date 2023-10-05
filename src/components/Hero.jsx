@@ -85,7 +85,7 @@ const Hero = () => {
             lg:ml-[60vw] md:ml-[50vw] xmd:ml-[60vw] 2xl:ml-[70vw]
             sm:h-[50vh] md:h-[60vh] xl:h-[70vh] "
                         src={me}
-                        alt="shaquille"
+                        alt="Shahrzad"
                     />
                 </div>
             </section>
